@@ -41,19 +41,20 @@ main {
   font-size: 150%;
 }
 
-.signup {
+.signin {
   flex: 1;
 }
 
-.header__signup {
+.header__signin {
   font-size: 200%;
   font-weight: bold;
   margin: 0 0 0 15%;
 }
 
-.header__signup--comment {
+.header__signin--comment {
   color: #aaaaaa;
   margin: 0 0 5% 15%;
+  font-size: 80%;
 }
 
 .header__detail {
@@ -79,7 +80,7 @@ main {
   background-color: white;
 }
 
-.signup__button {
+.signin__button {
   width: 225px;
   height: 30px;
   margin: 5% 0 2% 18%;
@@ -88,12 +89,18 @@ main {
   border-radius: 5px;
 }
 
-.signup__button:hover {
+.signin__button:hover {
   font-weight: bold;
   cursor: pointer;
 }
 
-.signin:hover {
+.signin--comment {
+  color: #aaaaaa;
+  margin: 0 0 2% 15%;
+  font-size: 50%;
+}
+
+.signup:hover {
   font-weight: bold;
   color: #5f2eea;
   cursor: pointer;
