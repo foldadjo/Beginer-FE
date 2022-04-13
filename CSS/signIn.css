@@ -45,6 +45,11 @@ main {
   flex: 1;
 }
 
+.header__logo {
+  display: none;
+  margin: 0 0 0 15%;
+}
+
 .header__signin {
   font-size: 200%;
   font-weight: bold;
@@ -65,7 +70,7 @@ main {
 
 .join__input {
   margin: 0 0 4% 15%;
-  padding: 0 0 0 8%;
+  padding: 0 5% 0 5%;
   color: #5f2eea;
   background-color: #dedede;
   border-radius: 5px;
@@ -104,4 +109,17 @@ main {
   font-weight: bold;
   color: #5f2eea;
   cursor: pointer;
+}
+
+@media (max-width: 820px) {
+  .banner {
+    display: none;
+  }
+  .header__logo {
+    display: flex;
+    margin: 15% 16% 10%;
+  }
+  .signin__button {
+    margin-right: 10%;
+  }
 }

@@ -195,3 +195,31 @@ footer::after {
   content: " Marvel";
   font-style: italic;
 }
+
+@media (max-width: 575.98px) {
+  header {
+    position: relative;
+    top: 0;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  .banner__img {
+    height: 250px;
+  }
+  .banner__overlay__title {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+  .article__image {
+    display: none;
+  }
+  .article__caption--dese,
+  .article__caption--header {
+    text-align: center;
+    text-indent: 0;
+  }
+  .menu {
+    top: 0;
+  }
+}
