@@ -36,3 +36,4 @@ belajar front end development, materi yang perlu dikuasai yaitu : css, html, dan
 ## Installation
 
 - `npm i bootstrap bootstrap-icons`
+- extensi
