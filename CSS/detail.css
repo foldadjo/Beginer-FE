@@ -211,6 +211,7 @@ footer {
   }
   .sometimes__button {
     flex-direction: column;
+    margin: 0;
   }
   .sometimes__button1 {
     margin: 2% 10%;
