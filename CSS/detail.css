@@ -105,11 +105,17 @@
 .box__time {
   flex-direction: row;
   flex-wrap: wrap;
+  text-align: left;
   justify-content: flex-start;
 }
 .box__time object {
   font-size: 12px;
   padding: 5px;
+  margin: 0 3%;
+}
+.box__time object:hover {
+  color: #6b6b6b;
+  cursor: pointer;
 }
 .box__price {
   margin: 10px;
