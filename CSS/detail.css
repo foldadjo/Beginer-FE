@@ -88,6 +88,7 @@
 .box__header {
   border-bottom: 2px solid #dedede;
   padding-bottom: 5px;
+  height: 35%;
 }
 .box__image {
   width: 40%;
@@ -123,6 +124,7 @@
 .box__price--title {
   color: #6b6b6b;
   font-size: 16px;
+  text-align: start;
 }
 .box__price--price {
   font-size: 16px;

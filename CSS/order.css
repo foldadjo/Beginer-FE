@@ -1,0 +1,245 @@
+/* RESET */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* body */
+.body {
+  margin-top: 5%;
+  padding: 8%;
+  background-color: #f5f6f8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.body__content {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 3%;
+  margin-right: 25px;
+  box-shadow: 2px 5px 5px 5px #ededed;
+}
+.body__content--title {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px 20px 10px;
+}
+.body__content--button {
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  opacity: 80%;
+  background-color: #eff0f6;
+  color: #5f2eea;
+  font-size: 14px;
+  border: #eff0f6;
+  margin: 20px;
+}
+.body__content--button:hover {
+  background-color: #5f2eea;
+  color: #eff0f6;
+}
+.seat {
+  height: 200px;
+}
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.box {
+  align-items: flex-start;
+  margin-right: 30px;
+}
+.box1 {
+  background-color: #d6d8e7;
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+}
+.box2 {
+  background-color: #5f2eea;
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+}
+.box3 {
+  background-color: #6e7191;
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+}
+.box__title {
+  padding: 0 15% 0 1%;
+  font-size: 14px;
+  margin: 0 10px 2px 2px;
+}
+.button {
+  padding: 2% 5% 5% 8%;
+  background-color: #f5f6f8;
+}
+.button1 {
+  width: 100px;
+  margin-right: 15%;
+  height: 56px;
+  color: #5f2eea;
+  border: 2px solid #5f2eea;
+  background-color: #d6d8e7;
+  border-radius: 10px;
+}
+.button2 {
+  width: 100px;
+  height: 56px;
+  color: #5f2eea;
+  border: 2px solid #5f2eea;
+  background-color: #d6d8e7;
+  border-radius: 10px;
+}
+.button1:hover {
+  border: 2px solid #d6d8e7;
+  color: #d6d8e7;
+  background-color: #5f2eea;
+}
+.button2:hover {
+  border: 2px solid #d6d8e7;
+  color: #d6d8e7;
+  background-color: #5f2eea;
+}
+.info__header {
+  text-align: center;
+}
+h3 {
+  margin: 20px;
+}
+.info__detail {
+  margin: 20px 10px;
+  font-size: 14px;
+}
+.info__detail--title {
+  color: #6b6b6b;
+}
+.info__detail--value {
+  color: #14142b;
+  font-weight: bold;
+}
+.info__detail--title2 {
+  font-weight: bold;
+  margin: 20px 10px;
+  font-size: 24px;
+}
+.info__detail--value2 {
+  color: #5f2eea;
+  font-weight: bold;
+  margin: 20px 10px;
+  font-size: 24px;
+}
+
+/* footerweb */
+.footerweb {
+  margin: 5%;
+}
+
+.footerweb__logo {
+  width: 160px;
+  margin: 10px 0;
+}
+
+h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footerweb__item--content {
+  color: #6e7191;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.footerweb__item--sponsor {
+  margin: 15px 0;
+  width: 50px;
+}
+
+.footerweb__item--acc {
+  margin-right: 10px;
+  width: 18px;
+  height: 20px;
+}
+
+.acc__link {
+  color: #6e7191;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.acc__link:hover {
+  color: #5f2eea;
+}
+
+footer {
+  text-align: center;
+  color: #4e4b66;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  margin: 2%;
+}
+
+@media (max-width: 1000px) {
+  .body {
+    flex-direction: column;
+    padding-top: 15%;
+  }
+  .body__header {
+    display: none;
+  }
+  .box__title {
+    font-size: 75%;
+  }
+  .body__content {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .button {
+    padding: 2% 5% 5% 5%;
+  }
+  .button1 {
+    display: none;
+  }
+  .button__hide {
+    display: none;
+  }
+  .footerweb {
+    flex-direction: column;
+  }
+  .footerweb__logo {
+    padding-top: 15%;
+  }
+  h5 {
+    margin-top: 30px;
+  }
+  .footerweb__mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footerweb__item--content {
+    flex: 1;
+    margin: 3%;
+  }
+  .footerweb__item--sponsor {
+    width: auto;
+    height: 20px;
+  }
+  .acc__link {
+    display: none;
+  }
+  footer {
+    margin: 10%;
+  }
+}
