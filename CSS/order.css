@@ -84,9 +84,12 @@ h4 {
   padding: 0 5% 5% 8%;
   background-color: #f5f6f8;
 }
+.button__1 {
+  margin-right: 250px;
+}
+
 .button1 {
-  width: 100px;
-  margin-right: 15%;
+  width: 20%;
   height: 56px;
   color: #5f2eea;
   border: 2px solid #5f2eea;
@@ -94,7 +97,7 @@ h4 {
   border-radius: 10px;
 }
 .button2 {
-  width: 100px;
+  width: 20%;
   height: 56px;
   color: #5f2eea;
   border: 2px solid #5f2eea;
@@ -206,14 +209,14 @@ footer {
     margin-right: 5px;
     margin-left: 5px;
   }
-  .button {
-    padding: 2% 5% 5% 5%;
+  .button a {
+    width: 100%;
   }
-  .button1 {
+  .button__1 {
     display: none;
   }
-  .button__hide {
-    display: none;
+  .button2 {
+    width: 100%;
   }
   .footerweb {
     flex-direction: column;
