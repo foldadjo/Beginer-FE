@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="CSS/payment.css" />
-    <title>Payment Page</title>
+    <title>payment Page</title>
     <style>
       .bg-white {
         background-color: white !important;
@@ -70,76 +70,120 @@
     <section class="body" style="display: flex">
       <section class="body__left" style="flex: 2">
         <div class="body__header">
-          <h2>Movie Selected</h2>
-          <div class="body__content" style="display: flex">
-            <object class="body__content--title" style="flex: 1">
-              Spider-Man: Homecoming
+          <h2>Payment Info</h2>
+        </div>
+        <div class="body__content">
+          <div>
+            <div style="display: flex" class="info__detail">
+              <object style="flex: 1" class="info__detail--title">
+                Date & time
+              </object>
+              <object class="info__detail--value">
+                Tuesday, 07 July 2020 at 02:00
+              </object>
+            </div>
+            <hr class="dropdown-divider" />
+            <div style="display: flex" class="info__detail">
+              <object style="flex: 1" class="info__detail--title">
+                Movie title
+              </object>
+              <object class="info__detail--value">
+                Spider-Man: Homecoming
+              </object>
+            </div>
+            <hr class="dropdown-divider" />
+            <div style="display: flex" class="info__detail">
+              <object style="flex: 1" class="info__detail--title">
+                Cinema name
+              </object>
+              <object class="info__detail--value">CineOne21 Cinema</object>
+            </div>
+            <hr class="dropdown-divider" />
+            <div style="display: flex" class="info__detail">
+              <object style="flex: 1" class="info__detail--title">
+                Number of tickets
+              </object>
+              <object class="info__detail--value">3 pieces</object>
+            </div>
+          </div>
+          <hr class="dropdown-divider" />
+          <div style="display: flex" class="info__detail">
+            <object style="flex: 1" class="info__detail--title">
+              Total Payment
             </object>
-            <button class="body__content--button">Change movie</button>
+            <object class="info__detail--value2">$30</object>
           </div>
         </div>
-        <h2>Choose Your Seat</h2>
+        <h2>Choose a Payment Method</h2>
         <div class="body__content">
-          <div class="seat"></div>
-          <h4>Seating key</h3>
-          <div class="box" style="display: flex">
-            <object class="box1" style="flex: 1"></object>
-            <object class="box__title" style="flex: 5">Available</object>
-            <object class="box2" style="flex: 1"></object>
-            <object class="box__title" style="flex: 5">Selected</object>
-            <object class="box3" style="flex: 1"></object>
-            <object class="box__title" style="flex: 5">Sold</object>
+          <div class="payment" style="display: flex">
+            <div class="payment__border" style="flex: 3">
+              <img src="assets/logo gpay.png" alt="" />
+            </div>
+            <div class="payment__border" style="flex: 3">
+              <img src="assets/Logo visa.png" alt="" />
+            </div>
+            <div class="payment__border" style="flex: 3">
+              <img src="assets/Logo GoPay.png" alt="" />
+            </div>
+            <div class="payment__border" style="flex: 3">
+              <img src="assets/logo paypal.png" alt="" />
+            </div>
+          </div>
+          <div class="payment" style="display: flex">
+            <div class="payment__border" style="flex: 3">
+              <img src="assets/logo dana.png" alt="" />
+            </div>
+            <div class="payment__border" style="flex: 3">
+              <img src="assets/logo BCA.png" alt="" />
+            </div>
+            <div class="payment__border" style="flex: 3">
+              <img src="assets/logo BRI.png" alt="" />
+            </div>
+            <div class="payment__border" style="flex: 3">
+              <img src="assets/logo ovo.png" alt="" />
+            </div>
+          </div>
+          <div style="display: flex; color: #a0a3bd">
+            <object style="flex: 2">
+              <hr class="dropdown-divider" />
+            </object>
+            <object style="flex: 1; text-align: center">or</object>
+            <object style="flex: 2">
+              <hr class="dropdown-divider" />
+            </object>
+          </div>
+          <div style="text-align: center">
+            <object class="payment__other1">Pay via cast</object>
+            <object class="payment__other2">See how it work</object>
           </div>
         </div>
       </section>
       <section class="body__right" style="flex: 1">
-        <h2>Order Info</h2>
+        <h2>Personal Info</h2>
         <div class="body__content">
-          <div class="info__header">
-            <img src="assets/logo cineone.png"/>
-            <h3>CineOne21 Cinema</h3>
+          <div class="profile">
+            <div class="profile__title">Full name</div>
+            <input type="text" placeholder="Jonas El Rodriguez" />
           </div>
-          <div>
-            <div style="display: flex" class="info__detail">
-              <object style="flex: 1" class="info__detail--title">
-                Movie selected
-              </object>
-              <object class="info__detail--value">Spider-Man: Homecoming</object>
-            </div>
-            <div style="display: flex" class="info__detail">
-              <object style="flex: 1" class="info__detail--title">
-                Tuesday, 07 July 2020
-              </object>
-              <object class="info__detail--value">02:00</object>
-            </div>
-            <div style="display: flex" class="info__detail">
-              <object style="flex: 1" class="info__detail--title">
-                One ticket price
-              </object>
-              <object class="info__detail--value">$10</object>
-            </div>
-            <div style="display: flex" class="info__detail">
-              <object style="flex: 1" class="info__detail--title">
-                Seat choosed
-              </object>
-              <object class="info__detail--value">C4, C5, C6</object>
-            </div>
+          <div class="profile">
+            <div class="profile__title">Email</div>
+            <input type="email" placeholder="jonasrodri123@gmail.com" />
           </div>
-          <hr class="dropdown-divider" />
-          <div>
-            <div style="display: flex">
-              <object style="flex: 1" class="info__detail--title2">
-                Total Payment
-              </object>
-              <object class="info__detail--value2">$30</object>
-            </div>
+          <div class="profile">
+            <div class="profile__title">Number</div>
+            <input type="tel" placeholder="81445687121" />
+          </div>
+          <div class="warning">
+            <img src="assets/warning.png" alt="warning" style="opacity: 100%" />
+            <object>Fill you data correctly</object>
           </div>
         </div>
       </section>
     </section>
     <div class="button" style="display: flex">
-      <button style="flex: 1" class="button1">Change your movie</button>
-      <button style="flex: 1" class="button2">Checkout now</button>
+      <button style="flex: 1" class="button1">Prvious step</button>
+      <button style="flex: 1" class="button2">Pay your order</button>
       <object style="flex: 2" class="button__hide"></object>
     </div>
     <section class="footerweb" style="display: flex">
